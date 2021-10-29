@@ -1,6 +1,16 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World..!\n");
+
+  int a;
+  float b;
+  char c;
+  double d;
+
+  printf("%d",a);
+  printf("%lf",b);
+  printf(" %c",c);
+  printf("%lf",d);
+
   return 0;
 }
