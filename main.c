@@ -2,15 +2,32 @@
 
 int main(void) {
 
-  int a;
-  float b;
-  char c;
-  double d;
+  /*
+  
+  Integers - 462 / -39 / 31285
+    Short 
+    Integers
+    Long Integers
 
-  printf("%d",a);
-  printf("%lf",b);
-  printf(" %c",c);
-  printf("%lf",d);
+  Real numbers - -21.73 / 15.0 / 6.252e-3
+    float
+    double
+    long double
+
+  Characters - 'A' / '@' / '7' / 'v' / '.'
+    char
+
+  */
+
+  int quentity;
+  float price;
+  char letter;
+  double number;
+
+  printf("%d",quentity);
+  printf("%lf",price);
+  printf(" %c",letter);
+  printf("%lf",number);
 
   return 0;
 }
